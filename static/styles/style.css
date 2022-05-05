@@ -81,3 +81,15 @@ input[type="submit"]{
 .Container:hover{
     box-shadow: -6px -2px 17px 5px rgba(228,174,197,0.3);
 }
+
+
+/*---------Breadcrumb--------------*/
+.breadcrumb a{
+    color: var(--secondary-color);
+    text-decoration: none;
+    margin:0 15px;
+}
+a.currentPage{
+    color:grey;
+    text-decoration: none;
+}
