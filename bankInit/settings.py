@@ -38,7 +38,10 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'banque.apps.BanqueConfig',
-    'formulaire.apps.FormulaireConfig'
+    'formulaire.apps.FormulaireConfig',
+    'calendrier.apps.CalendrierConfig',
+    'dashboard.apps.DashboardConfig',
+    'liste.apps.ListeConfig'
 ]
 
 MIDDLEWARE = [

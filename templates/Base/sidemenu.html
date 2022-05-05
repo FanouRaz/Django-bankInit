@@ -4,8 +4,8 @@
     <span>Bank Init</span>
 </div>
 <nav class="m-5">
-    <a href="#" class="btn">DashBoard</a>
-    <a href="#" class="btn">Liste de prêts</a>
+    <a href="{% url 'dashboard' %}" class="btn">Dash Board</a>
+    <a href="{% url 'liste' %}" class="btn">Liste de prêts</a>
     <a href="{% url 'formulaire' %}" class="btn">Enregistrer un nouveau prêt</a>
-    <a href="#" class="btn">Calendrier de remboursement</a>
+    <a href="{% url 'calendrier' %}" class="btn">Calendrier de remboursement</a>
 </nav>
